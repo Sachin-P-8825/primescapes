@@ -696,6 +696,10 @@ textarea.form-control {
 
 @media (max-width: 768px) {
 
+  .home-hero{
+    min-height:600px;
+  }
+  
   .nav-menu-wrapper {
     position: fixed;
     top: 0;
