@@ -30,7 +30,7 @@ body {
 }
 
 main {
-    padding-top: 80px;
+    padding-top: 65px;
 }
 
 a {
@@ -333,7 +333,6 @@ ul {
   max-width: 900px;
   margin: auto;
   width: 100%;
-  padding-top: 20px;
 }
 
 .hero-tag {
