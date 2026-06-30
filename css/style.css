@@ -698,21 +698,22 @@ textarea.form-control {
   .nav-menu-wrapper {
     position: fixed;
     top: 0;
-    right: -100%;
-    width: min(320px, 85vw);
+    right: -50vw;
+    width: 50vw;
+    max-width: none;
     height: 100vh;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: right .35s ease;
-    box-shadow: -10px 0 30px rgba(0, 0, 0, .15);
+    box-shadow: -10px 0 30px rgba(0,0,0,.15);
     z-index: 1000;
-  }
+}
 
-  .nav-menu-wrapper.active {
+.nav-menu-wrapper.active {
     right: 0;
-  }
+}
 
   .nav-links {
     flex-direction: column;
