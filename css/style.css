@@ -29,10 +29,6 @@ body {
   background: var(--white);
 }
 
-main {
-    padding-top: 65px;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -304,6 +300,7 @@ ul {
   display: flex;
   align-items: center;
   overflow: hidden;
+  padding-top: 65px;
 }
 
 .hero-bg {
